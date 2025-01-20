@@ -1,4 +1,4 @@
-const API_KEY = "13b23b02e71a83201b9036ffb09fe3b8";
+const API_KEY = "sua_key_aqui";
 
 document.addEventListener("DOMContentLoaded", () => {
   document.getElementById("track-form").addEventListener("submit", async function (e) {
