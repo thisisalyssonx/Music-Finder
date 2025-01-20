@@ -17,7 +17,7 @@ document.addEventListener("DOMContentLoaded", () => {
     }
 
     try {
-      const url = `http://ws.audioscrobbler.com/2.0/?method=track.getsimilar&track=${encodeURIComponent(
+      const url = `https://ws.audioscrobbler.com/2.0/?method=track.getsimilar&track=${encodeURIComponent(
         trackName
       )}&artist=${encodeURIComponent(artistName)}&api_key=${API_KEY}&format=json`;
 
